@@ -1,5 +1,6 @@
 ### GitHub URL
-- 
+- https://yueknowwho.github.io/multiplication_table_hw4_p2/
+- https://github.com/YueKnowWho/multiplication_table_hw4_p1.git
 ### Resources
 - https://www.w3schools.com/
 - https://getbootstrap.com/docs/5.0/getting-started/introduction/
