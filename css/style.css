@@ -1,0 +1,37 @@
+/*
+File: style.css
+GUI Assignment: Multiplication Table
+Jonathan Yue, UMass Lowell Computer Science, jonathan_yue@student.uml.edu
+Copyright (c) 2025 by Jonathan Yue All rights reserved. May be freely copied or excerpted for educational purposes with credit to the author.
+updated by JY on June 20, 2025 at 8 PM
+*/
+/*scrollable*/
+.table-container {
+    height: 500px; 
+    overflow: auto;
+}
+/*fixed table heads*/
+#mult-table thead th, .tab thead th{
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+#mult-table th:first-child, .tab th:first-child{
+    position: sticky;
+    left: 0;
+    z-index: 2;
+}
+/*table styling*/
+#mult-table th, .tab th{
+    background-color: #5890e2;
+    color:aliceblue;
+}
+#mult-table tr:nth-of-type(even) td, .tab tr:nth-of-type(even) td{
+    background-color: #e4e7ec;
+}
+/*table validation errors*/
+label.error {
+    color: #dc3545;
+    font-size: 12px;
+    font-weight: bold
+}
